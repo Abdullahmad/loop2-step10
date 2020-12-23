@@ -9,3 +9,18 @@
     border: none;
     outline: none;
 }
+
+.opp {
+    margin-left: 1.2rem;
+    font-size: larger;
+}
+
+.opp:hover {
+    margin-bottom: .3rem;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.pa {
+    color: #fe6a5d;
+}
