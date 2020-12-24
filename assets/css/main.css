@@ -64,6 +64,10 @@
 }
 
 .ht {
-    background-color: #f6f8f9;
+    background-color: white;
+    display: grid;
     height: 70rem;
+    grid-template-columns: 20% 60% 20%;
+    margin: 0 15rem;
+    grid-gap: 2rem;
 }
