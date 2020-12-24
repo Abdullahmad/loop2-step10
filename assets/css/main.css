@@ -71,3 +71,8 @@
     margin: 0 15rem;
     grid-gap: 2rem;
 }
+
+.links:hover p {
+    text-decoration: underline;
+    cursor: pointer;
+}
