@@ -88,3 +88,12 @@
     cursor: pointer;
     background-color: rgb(212, 207, 207);
 }
+
+.orp {
+    padding: 1rem;
+}
+
+.orp img {
+    width: 13rem;
+    height: 13rem;
+}
