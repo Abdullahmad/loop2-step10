@@ -98,3 +98,12 @@
     width: 12rem;
     height: 12rem;
 }
+
+.popo {
+    cursor: pointer;
+}
+
+.popo:hover h3 {
+    text-decoration: underline;
+    ;
+}
