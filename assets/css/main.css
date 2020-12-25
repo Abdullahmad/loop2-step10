@@ -91,9 +91,10 @@
 
 .orp {
     padding: 1rem;
+    justify-content: space-between;
 }
 
 .orp img {
-    width: 13rem;
-    height: 13rem;
+    width: 12rem;
+    height: 12rem;
 }
