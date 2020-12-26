@@ -69,7 +69,7 @@
     background-color: #f6f8f9;
     display: grid;
     /* height: 100rem; */
-    grid-template-columns: 20% 55% 25%;
+    grid-template-columns: 20% 57% 23%;
     margin: 0 15rem;
     grid-gap: 2rem;
 }
