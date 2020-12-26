@@ -13,12 +13,12 @@
 </head>
 
 <body>
-    <nav style="width: 100%; height: 6rem; border-bottom: 1px solid rgb(222, 222, 222); display: flex; align-items: center; padding: 0 15rem;">
+    <nav style="width: 100%; height: 6rem; border-bottom: 1px solid rgb(222, 222, 222); display: flex; align-items: center; padding: 0 13rem;">
         <img src="./img/logo.png" alt="" style="width: 2rem; height: 2rem;">
         <div style="height: 6rem; width: .1rem; margin-left: 3rem; background-color: rgb(222, 222, 222);"></div>
         <div style="display: flex; align-items: center; border: 1px solid rgb(222, 222, 222); border-radius: 25px; padding: .5rem .5rem; margin-left: 3rem;" class="rasi">
             <input type="text" placeholder="Search">
-            <img src="./img/search.svg" alt="">
+            <img src="./img/search.svg" alt="" class="mr-6">
         </div>
         <div style="height: 6rem; width: .1rem; margin-left: 3rem; background-color: rgb(222, 222, 222);"></div>
         <p class="opp">Home</p>
@@ -46,7 +46,7 @@
                 <p style="color: rgb(81, 77, 77); margin-top: .2rem;">Microsoft Founder</p>
                 <p style="color: rgb(190, 183, 183); margin-top: .2rem;">Greater Seattle Area</p>
                 <button style="width: 11rem; height: 2.7rem; font-size: larger; color: white; border-radius: 46px; background-color: #54aae7; border: none; cursor: pointer; margin-top: 1rem;">Follow</button>
-                <button style="display: flex; align-items: center; color: #54aae7; width: 11rem; height: 2.7rem; border: .17rem solid #54aae7; background-color: white; border-radius: 46px; justify-content: center; margin-top: 1rem; font-size: larger; cursor: pointer;">
+                <button class="flex items-center justify-center h-12 mt-10 text-xl text-blue-300 bg-white border-4 border-blue-300 cursor-pointer hover:bg-blue-100 w-44 rounded-3xl">
                     <p>Connect</p>
                     <img src="./img/arr-down.svg" alt="">
                 </button>
@@ -77,7 +77,7 @@
                 <div style="background-color: white; border: 1px solid rgb(200, 225, 232); height: 24.5rem;">
                     <div style="border-bottom: 1px solid #f0f0f8; height: 5rem; display: flex; align-items: center; justify-content: space-between; padding: 1rem;">
                         <h4 style="font-size: larger;">POST</h4>
-                        <div>
+                        <div class="flex center">
                             <img src="./img/arr-left.svg" alt="" class="rs">
                             <img src="./img/arr-right.svg" alt="" class="rs">
                         </div>
@@ -190,37 +190,64 @@
                         <img src="./img/bag.svg" alt="">
                         <h2 style="margin-left: 1rem; color: #333333; font-weight: 400;">Interest</h2>
                     </div>
-                    <div class="flex justify-evenly mt-4 ml-16 cursor-pointer">
-                        <p class="bg-gray-200 w-36 p-2 rounded flex items-center justify-center">Wireless industry</p>
-                        <p class="bg-gray-200 w-36 p-2 rounded flex items-center justify-center">Photography</p>
-                        <p class="bg-gray-200 w-36 p-2 rounded flex items-center justify-center">Web design</p>
-                        <p class="bg-gray-200 w-36 p-2 rounded flex items-center justify-center">Technology</p>
+                    <div class="flex mt-4 ml-16 cursor-pointer justify-evenly">
+                        <p class="flex items-center justify-center p-2 bg-gray-200 rounded w-36">Wireless industry</p>
+                        <p class="flex items-center justify-center p-2 bg-gray-200 rounded w-36">Photography</p>
+                        <p class="flex items-center justify-center p-2 bg-gray-200 rounded w-36">Web design</p>
+                        <p class="flex items-center justify-center p-2 bg-gray-200 rounded w-36">Technology</p>
                     </div>
                 </div>
 
-                <div class="h-1/5 bg-white mt-8 border border-blue-100">
-                    <div class="flex items-center border-b h-20 justify-between">
-                        <h4 class="text-lg  font-medium p-4">RECOMENDATIONS</h4>
+                <div class="mt-8 bg-white border border-blue-100 h-1/5">
+                    <div class="flex items-center justify-between h-20 border-b">
+                        <h4 class="p-4 text-lg font-medium">RECOMENDATIONS</h4>
                         <div class="flex items-center cursor-pointer">
-                            <img src="./img/arr-left.svg" alt="" class="rounded-full border-2 border-gray-200 p-2 mr-4 hover:bg-gray-200">
-                            <img src="./img/arr-right.svg" alt="" class="rounded-full border-2 border-gray-200 p-2 mr-4 hover:bg-gray-200">
+                            <img src="./img/arr-left.svg" alt="" class="p-2 mr-4 border-2 border-gray-200 rounded-full hover:bg-gray-200">
+                            <img src="./img/arr-right.svg" alt="" class="p-2 mr-4 border-2 border-gray-200 rounded-full hover:bg-gray-200">
                         </div>
                     </div>
-                    <div class="justify-evenly mt-8 flex">
-                        <div class="w-48 h-56 border border-grey-200 p-3">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, expedita! Nobis dicta maiores officiis, recusandae eius at maxime a, ad iste accusamus
+                    <div class="flex mt-8 justify-evenly">
+                        <div>
+                            <div class="w-48 h-56 p-3 border border-grey-200">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, expedita! Nobis dicta maiores officiis, recusandae eius at maxime a, ad iste accusamus
+                            </div>
+                            <div class="flex items-center">
+                                <img src="./img/avatar.jpg" alt="" class="w-20 h-20 mt-6 rounded-full">
+                                <div class="grid">
+                                    <p class="text-xl font-medium">Steve Jobs</p>
+                                    <p>Apple</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="w-48 h-56 border border-grey-200 p-3">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, expedita! Nobis dicta maiores officiis, recusandae eius at maxime a, ad iste accusamus
-
+                        <div>
+                            <div class="w-48 h-56 p-3 border border-grey-200">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, expedita! Nobis dicta maiores officiis, recusandae eius at maxime a, ad iste accusamus
+                            </div>
+                            <div class="flex items-center">
+                                <img src="./img/avatar.jpg" alt="" class="w-20 h-20 mt-6 rounded-full">
+                                <div class="grid">
+                                    <p class="text-xl font-medium">Mark Zuckerberg</p>
+                                    <p>Facebook</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="w-48 h-56 border border-grey-200 p-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, expedita! Nobis dicta maiores officiis, recusandae eius at maxime a, ad iste accusamus
+                        <div>
+                            <div class="w-48 h-56 p-3 border border-grey-200">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, expedita! Nobis dicta maiores officiis, recusandae eius at maxime a, ad iste accusamus
+                            </div>
+                            <div class="flex items-center">
+                                <img src="./img/avatar.jpg" alt="" class="w-20 h-20 mt-6 rounded-full">
+                                <div class="grid">
+                                    <p class="text-xl font-medium">Jeffery Bezos</p>
+                                    <p>Amazon</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div></div>
             </div>
-            <div style=" background-color: chartreuse; "></div>
+            <div class="border border-blue-200"></div>
         </div>
     </div>
 </body>
